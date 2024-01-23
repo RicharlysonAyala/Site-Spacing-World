@@ -8,6 +8,11 @@
     list-style: none;
 }
 
+body,
+html {
+    overflow-x: hidden;
+}
+
 h1,
 h2 {
     color: rgb(235, 44, 76);;
@@ -374,4 +379,73 @@ footer {
         letter-spacing: .08em;
     }
 
+}
+
+
+/* Celular 565px */
+
+
+
+/* Celular 425px */
+@media (max-width: 425px) {
+
+    .navbar-container {
+        padding: 0 1rem;
+    }
+
+    nav ul {
+        gap: 0px;
+    }
+
+    nav ul li {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    nav ul li a p {
+        padding: 0px 10px;
+    }
+
+    .main-image h1 {
+        font-size: 36px;
+    }
+
+    .main-image p {
+        font-size: 24px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .games-moreplay h2 {
+        font-size: 28px;
+    }
+
+    .banner-games-moreplayer h2 {
+        font-size: 34px;
+    }
+
+    .banner-games-moreplayer p {
+        font-size: 22px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .suporte-footer {
+        
+    }
+
+    .suporte-footer ul li a {
+        padding: 8px 2px;
+        font-size: 10px;
+    }
+
+    .politica-credits ul {
+        
+    }
+
+    .politica-credits li a {
+        font-size: 12px;
+        padding: 8px 2px;
+        letter-spacing: .08em;
+    }
 }
