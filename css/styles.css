@@ -313,3 +313,21 @@ footer {
 .politica-credits li a:hover {
     background-color: rgba(128,128,128,.2);
 }
+
+
+/* Responsividade */
+/* Tablets 768px */
+@media (max-width: 809px) {
+
+    .games-container .game img {
+        width: 300px;
+    }
+
+    .banner-games-moreplayer p {
+        font-size: 30px;
+    }
+
+    .suporte-footer ul li a {
+        letter-spacing: .05em;
+    }
+}
