@@ -329,5 +329,49 @@ footer {
 
     .suporte-footer ul li a {
         letter-spacing: .05em;
+        font-size: 12px;
     }
+}
+
+
+/* Celular 655px */
+@media (max-width: 655px) {
+
+    nav ul li {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .main-image h1 {
+        font-size: 40px;
+    }
+
+    .main-image p {
+        font-size: 26px;
+    }
+
+    .games-moreplay h2 {
+        font-size: 30px;
+    }
+
+    .banner-games-moreplayer h2 {
+        font-size: 40px;
+    }
+
+    .banner-games-moreplayer p {
+        font-size: 24px;
+    }
+
+    .suporte-footer ul li a {
+        letter-spacing: .05em;
+        padding: 8px 8px;
+        font-size: 11px;
+    }
+
+    .politica-credits li a {
+        font-size: 12px;
+        padding: 8px 8px;
+        letter-spacing: .08em;
+    }
+
 }
