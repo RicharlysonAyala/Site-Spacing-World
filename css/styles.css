@@ -1,0 +1,273 @@
+/* geral */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "FF Mark W05", Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1,
+h2 {
+    color: rgb(235, 44, 76);;
+}
+
+h3,
+p {
+    color: #383e3a;
+    font-family: DINNextW05-Bold, arial, georgia, sans-serif;
+}
+
+/* logo */
+.icon-logo {
+    height: 50px;
+}
+
+
+/* navbar */
+.navbar-container {
+    background-color: #111;
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid rgba(20, 20, 20, 0.8);
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav ul li {
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+nav ul li a p {
+    padding: 5px 20px;
+    border-radius: 8px;
+    color: #f6f6f6;
+    transition: 0.3s;
+}
+
+#default-btn {
+    background-color: rgb(235, 44, 76);
+    margin-left: 15px;
+    padding: 7px 25px;
+    border-radius: 12px;
+    color: #121212;
+    transition: 0.4s;
+}
+
+
+/* animations navbar */
+nav ul .border-red:hover {
+    border-bottom: 3px solid rgb(235, 44, 76);
+    border-radius: 3px;
+}
+
+#default-btn:hover {
+    background-color: rgb(214, 18, 51);
+}
+
+
+/* main image */
+.main-image {
+    background-image: url(../img/fundo-preto-vermelho-memphis-estilo-de-meio-tom-em-design-moderno_1017-39058.avif);
+    background-position: center;
+    background-size: cover;
+    padding: 16rem 0;
+}
+
+.main-image h1,
+.main-image p {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-image h1 {
+    font-size: 46px;
+}
+
+.main-image p {
+    font-size: 32px;
+}
+
+
+/* games moreplay */
+.games-moreplay {
+    margin-top: 75px;
+}
+
+.games-moreplay h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 65px;
+    font-weight: bold;
+}
+
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.game {
+    cursor: pointer;
+}
+
+.games-container h3 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.games-container .game img {
+    width: 350px;
+    margin-bottom: 5px;
+    border: 4px solid rgb(235, 44, 76);
+    transition: 0.2s;
+}
+
+.games-container .game p {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+/* animation games moreplay */
+.games-container .game img:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+
+/* Image */
+
+/* footer */
+/* suporte footer */
+footer {
+    margin-top: 75px;
+    background-color: #111;
+    padding-bottom: 48px;
+}
+
+.suporte-footer {
+    background-color: #292929;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.suporte-footer ul {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.suporte-footer ul li a {
+    letter-spacing: .08em;
+    color: #f9f9f9;
+    padding: 8px 16px;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+
+/* credits footer */
+.credits-footer {
+    padding: 18px 0
+}
+
+.apps-logo {
+    display: flex;
+    justify-content: center;
+    margin: 6px;
+    gap: 11px;
+}
+
+.app a i {
+    background-color: rgba(128,128,128,.2);
+    padding: 8px;
+    color: #f9f9f9;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+}
+
+.double-logo {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0 20px;
+}
+
+.double-logo .icon-logo {
+    margin: 26px 12px 0;
+}
+
+.credits-copy {
+    margin-top: 5px;
+}
+
+.credits-copy p {
+    font-family: "FF Mark W05",Arial,sans-serif;
+    text-align: center;
+    font-size: 13px;
+    color: #7e7e7e;
+    line-height: 140%;
+    max-width: 640px;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.politica-credits {
+    margin: 30px 0px;
+}
+
+.politica-credits ul {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.politica-credits li a {
+    color: #f9f9f9;
+    padding: 8px 16px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .08em;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+
+/* animation suporte footer */
+.suporte-footer ul li a:hover {
+    background-color: rgba(128,128,128,.2);
+}
+
+
+/* animation credits footer */
+.politica-credits li a:hover {
+    background-color: rgba(128,128,128,.2);
+}
