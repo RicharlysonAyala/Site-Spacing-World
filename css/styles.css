@@ -384,7 +384,58 @@ footer {
 
 
 /* Celular 565px */
+@media (max-width: 565px) {
 
+    .main-image h1 {
+        font-size: 36px;
+    }
+
+    .main-image p {
+        font-size: 24px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .banner-games-moreplayer h2 {
+        font-size: 34px;
+    }
+
+    .banner-games-moreplayer p {
+        font-size: 22px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .banner-games-moreplayer a {
+        font-weight: bold;
+    }
+
+    .suporte-footer ul {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .suporte-footer ul li a {
+        padding: 0;
+        font-size: 12px;
+        max-width: 70px;
+    }
+
+    .suporte-footer ul li {
+        width: 100%;
+    }
+
+    .politica-credits ul {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .politica-credits li a {
+        font-size: 12px;
+        padding: 8px 2px;
+        letter-spacing: .08em;
+    }
+}
 
 
 /* Celular 425px */
