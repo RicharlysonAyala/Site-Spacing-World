@@ -126,6 +126,7 @@ nav ul .border-red:hover {
 
 .game {
     cursor: pointer;
+    margin-bottom: 50px;
 }
 
 .games-container h3 {
@@ -161,7 +162,7 @@ nav ul .border-red:hover {
 /* footer */
 /* suporte footer */
 footer {
-    margin-top: 75px;
+    margin-top: 25px;
     background-color: #111;
     padding-bottom: 48px;
 }
