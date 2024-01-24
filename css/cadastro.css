@@ -1,0 +1,13 @@
+form input[type="text"],
+form input[type="password"] {
+    margin-bottom: 15px;
+}
+
+form input[type="email"] {
+    margin-bottom: 10px;
+}
+
+.linha {
+    margin: 15px 0 20px;
+    border-bottom: 1px solid hsla(0,0%,100%,.2);;
+}
