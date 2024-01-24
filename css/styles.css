@@ -81,6 +81,10 @@ nav ul .border-red:hover {
     border-radius: 3px;
 }
 
+nav ul li a p:hover{
+    color: rgb(235, 44, 76);
+}
+
 #default-btn:hover {
     background-color: rgb(214, 18, 51);
 }
