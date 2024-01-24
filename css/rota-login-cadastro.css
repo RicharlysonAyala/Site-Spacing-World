@@ -39,10 +39,12 @@ form h1 {
     font-weight: 800;
     padding: 7px 0;
     line-height: 1.4em;
+    margin-bottom: 10px;
 }
 
 form input[type="text"],
-form input[type="password"] {
+form input[type="password"],
+form input[type="email"] {
     background-color: rgba(0,0,0,.7);
     border: 1px solid hsla(0,0%,100%,.2);
     color: #bdbebe;
