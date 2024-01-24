@@ -74,6 +74,8 @@ form input[type="submit"] {
     font-weight: bold;
     letter-spacing: 0;
     margin-bottom: 14px;
+    cursor: pointer;
+    transition: 0.4s;
 }
 
 form a {
@@ -90,4 +92,20 @@ form a {
 
 .space {
     margin-bottom: 15px;
+}
+
+/* animations */
+/* form input[type="submit"]:hover {
+    border-color: #fff;
+    color: #fff;
+} */
+
+form input[type="submit"]:hover {
+    border: 2px rgb(235, 44, 76);
+    color: #121212;
+    background-color: rgb(235, 44, 76);
+}
+
+form a:hover {
+    text-decoration: underline;
 }
