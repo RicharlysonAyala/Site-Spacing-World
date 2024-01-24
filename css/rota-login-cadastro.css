@@ -128,7 +128,7 @@ form a:hover {
     form input[type="email"] {
         max-width: 95%;
         margin: 4px auto;
-}
+    }
 
     form input[type="password"] {
         margin-bottom: 12px;
