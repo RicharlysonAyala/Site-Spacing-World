@@ -11,3 +11,15 @@ form input[type="email"] {
     margin: 15px 0 20px;
     border-bottom: 1px solid hsla(0,0%,100%,.2);;
 }
+
+@media (max-width: 400px) {
+
+    form input[type="text"],
+    form input[type="password"] {
+        margin-bottom: 4px;
+    }
+
+    form input[type="email"] {
+        margin-bottom: 12px;
+    }
+}
