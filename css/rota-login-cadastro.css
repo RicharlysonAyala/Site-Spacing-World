@@ -65,6 +65,7 @@ form input[type="password"] {
     margin-bottom: 10px;
 }
 
+form a p,
 form input[type="submit"] {
     background-color: transparent;
     border: 1px solid #bdbebe;
@@ -78,9 +79,10 @@ form input[type="submit"] {
     margin-bottom: 14px;
     cursor: pointer;
     transition: 0.4s;
+    width: 100%;
 }
 
-form a {
+.text-add {
     margin: 11px 0 0;
     color: #fff;
     font-weight: bold;
@@ -102,13 +104,14 @@ form a {
     color: #fff;
 } */
 
+form a p:hover,
 form input[type="submit"]:hover {
     border: 2px rgb(235, 44, 76);
     color: #121212;
     background-color: rgb(235, 44, 76);
 }
 
-form a:hover {
+.text-add:hover {
     text-decoration: underline;
 }
 
